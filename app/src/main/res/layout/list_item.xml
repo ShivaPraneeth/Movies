@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-    android:background="#837E7C">
+android:layout_alignParentRight="true"
+android:background="#837E7C">
 
 <ImageView
     android:id="@+id/imageView_poster"
     android:layout_width="150dp"
-    android:layout_height="200dp"/>
+    android:layout_height="200dp"
+    android:layout_alignParentLeft="true"/>
 
 <TextView
     android:id="@+id/textView_name"
@@ -17,7 +19,8 @@ android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:textSize="20sp"
     android:textStyle="bold"
-    android:textColor="#FFFFFF"/>
+    android:textColor="#FFFFFF"
+    android:layout_alignParentLeft="true"/>
 
 <TextView
     android:id="@+id/textView_Rating"
@@ -28,7 +31,8 @@ android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:textSize="20sp"
     android:textStyle="italic"
-    android:textColor="#FFFFFF"/>
+    android:textColor="#FFFFFF"
+    android:layout_alignParentLeft="true"/>
 
    <TextView
     android:id="@+id/textView_Description"
@@ -38,7 +42,8 @@ android:layout_height="match_parent"
     android:layout_below="@id/textView_Rating"
     android:layout_margin="10dp"
     android:textSize="20sp"
-       android:textColor="#FFFFFF"/>
+    android:textColor="#FFFFFF"
+    android:layout_alignParentLeft="true"/>
 
 
 </RelativeLayout>
